@@ -1,0 +1,239 @@
+@media screen and (max-width: 1210px) {
+    .header-menu {
+        margin: 8px 0 0 0;
+    }
+    .btn {
+        margin: 0 10px;
+    }
+    .main {
+        img {
+            margin: 8px 0 0 0;
+        }
+    }
+    .carousel-item {
+        position: relative;
+    }
+    .carousel-item_left {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        padding: 45px 0 0;
+    }
+    .slick-dots {
+        bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main {
+        padding: 55px 0 0 0;
+        h2 {
+            font-size: 37px;
+            line-height: 110%;
+            margin: 30px 0 36px 0;
+        }
+    }
+    .competitions {
+        padding: 30px 0 10px;
+    }
+    .competitions-item {
+        width: 50%;
+        margin: 0 0 15px 0;
+    }
+    .how {
+        padding: 15px 0 25px;
+    }
+    .how-list {
+        padding: 0;
+    }
+    .how-item {
+        p {
+            font-size: 14px;
+        }
+    }
+    .carousel-item_left {
+        padding: 45px 20px 5px;
+        p {
+            font-size: 14px;
+        }
+        span {
+            font-size: 12px;
+        }
+    }
+    .winners {
+        padding: 10px 0 40px;
+    }
+    .winners-item {
+        width: 50%;
+        margin: 0 0 15px 0;
+    }
+    .footer {
+        padding: 7px 0;
+    }
+    .footer-menu {
+        li {
+            padding: 0 7px;
+        }
+    }
+    .header-menu {
+        margin: 4px 0 0 20px;
+        ul {
+            display: none;
+        }
+    }
+    .burger {
+        display: block;
+        float: left;
+        margin: 3px 0 0 10px;
+    }
+    .header {
+        padding: 15px 0px 0;
+    }
+    .main-left {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .competitions-item {
+        width: 100%;
+    }
+    .competitions {
+        padding: 0 0 10px;
+        h2 {
+            margin: 20px 0 17px;
+        }
+    }
+    .in {
+        h3 {
+            font-size: 18px;
+            line-height: 20px;
+        }
+        b {
+            font-size: 25px;
+            line-height: 30px;
+        }
+        i {
+            font-size: 18px;
+        }
+        span {
+            font-size: 12px;
+        }
+    }
+    .text-in {
+        padding: 5px 20px 7px;
+    }
+    .competitions-list {
+        padding: 0;
+    }
+    .how {
+        padding: 15px 0 0 0;
+        h2 {
+            margin: 15px 0 15px;
+        }
+    }
+    .how-item {
+        width: 100%;
+        &:after {
+            transform: rotate(90deg);
+            bottom: 0;
+            top: auto;
+            right: 50%;
+            margin: 0 -12px 0 0;
+        }
+    }
+    .carousel-item {
+        img {
+            float: none;
+            width: 100%;
+        }
+    }
+    .carousel-item_left {
+        float: none;
+        width: 100%;
+        position: relative;
+        padding: 35px 20px 45px;
+    }
+    .slick-dots {
+        left: 50%;
+        bottom: 5%;
+    }
+    .winners {
+        h2 {
+            margin: 15px 0 15px;
+        }
+    }
+    .winners-item {
+        width: 100%;
+        p {
+            font-size: 12px;
+            margin: 3px 0 5px;
+        }
+        .text-in {
+            padding: 5px 20px 5px;
+        }
+    }
+    .footer-logo {
+        float: none;
+    }
+    .footer-menu {
+        float: none;
+        li {
+            float: none;
+            padding: 5px 7px;
+        }
+    }
+    .winners {
+        padding: 10px 0 15px;
+    }
+    .main {
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 55px 0 20px 0;
+        img {
+            width: 100%;
+            float: none;
+        }
+    }
+    .main-left {
+        float: none;
+        width: 100%;
+        text-align: center;
+        br {
+            display: none;
+        }
+    }
+    .header-menu {
+        a {
+            font-size: 12px;
+            line-height: 15px;
+        }
+    }
+    .header-logo {
+        width: 100px;
+        img {
+            width: 100%;
+        }
+    }
+    .header-right {
+        display: none;
+    }
+    .only-mobile {
+        display: block;
+    }
+    .header-menu {
+        position: absolute;
+        right: 10px;
+        top: 40px;
+    }
+    .burger {
+        float: right;
+    }
+    .header {
+        overflow: visible;
+    }
+}

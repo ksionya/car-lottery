@@ -1,0 +1,48 @@
+.footer {
+    background: #346CD9;
+    padding: 16px 0;
+    overflow: hidden;
+}
+
+.footer-logo {
+    display: block;
+    float: left;
+    font-family: Rajdhani;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    &:hover {
+        color: #FF2E63;
+        transition: all 0.2s ease;
+    }
+}
+
+.footer-menu {
+    float: right;
+    ul {
+        list-style: none;
+        overflow: hidden;
+        padding: 0;
+        margin: 7px -14px 0 0;
+    }
+    li {
+        float: left;
+        padding: 0 15px;
+    }
+    a {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        text-decoration: none;
+        &:hover {
+            color: #FF2E63;
+            transition: all 0.2s ease;
+        }
+    }
+}
